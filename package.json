@@ -1,0 +1,17 @@
+{
+  "name": "testeE2E",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "@types/cypress": "^1.1.3",
+    "cypress": "^13.13.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.4"
+  }
+}
